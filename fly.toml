@@ -3,7 +3,7 @@
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'openai-realtime-python-dry-resonance-4469'
+app = 'openai-realtime-python'
 primary_region = 'ewr'
 
 [build]
