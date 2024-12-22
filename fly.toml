@@ -14,10 +14,10 @@ primary_region = 'ewr'
   auto_stop_machines = 'stop'
   auto_start_machines = true
   min_machines_running = 0
-  processes = ['app']
+  # processes = ['web']
 
-[processes]
-  web = 'python -m realtime_agent.main server'
+# [processes]
+#   web = 'python -m realtime_agent.main server'
 
 [[vm]]
   memory = '1gb'
