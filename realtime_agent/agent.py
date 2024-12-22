@@ -85,7 +85,7 @@ class RealtimeKitAgent:
             async with RealtimeApiConnection(
                 base_uri=os.getenv("REALTIME_API_BASE_URI", "wss://api.openai.com"),
                 api_key=os.getenv("OPENAI_API_KEY"),
-                verbose=False,
+                verbose=True,
             ) as connection:
                 await connection.send_request(
                     SessionUpdate(
